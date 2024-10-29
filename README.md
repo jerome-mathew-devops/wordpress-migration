@@ -7,7 +7,7 @@ Mobilize: Build foundation capability of company on AWS
 
 Migrate: Migrate system and database to the cloud
 
-##Steps
+## Steps
 Install WordPress
 
 Transfer domian
