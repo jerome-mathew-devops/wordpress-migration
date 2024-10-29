@@ -43,7 +43,8 @@ Migrate Database
   
 * Or you can connect too your instance using AWS  connect
   
-* Once you've connected to the instance, run the command "sudo /opt/bitnami/bncert-tool"
+* Once you've connected to the instance, run the command
+  	sudo /opt/bitnami/bncert-tool
   
 * You will be prompted to answer the a set of questions and it is advised to answer all questions correctly
 
@@ -53,10 +54,10 @@ Migrate Database
 * Visit WordPress login page and use the username and password from the step above
   
 ## Assign a Static IP
-	By Default, Our Wordpress instance is assigned an ephemeral IP, meaing the WP IP address is change when ever the Instance stops or restarts.
+By Default, Our Wordpress instance is assigned an ephemeral IP, meaing the WP IP address is change when ever the Instance stops or restarts.
 Import the WordPress Website
 
-	We use the All-in-one WP Migration Unlimited Plugin to quickly and easily import nd export the existing WordPress Website to it's new location on AWS.
+We use the All-in-one WP Migration Unlimited Plugin to quickly and easily import nd export the existing WordPress Website to it's new location on AWS.
  
 * Downlaod the WP Migration Plugin: From our  WordPress website, head over to "Add Plugins" and download the All-in-One WP Migration plugin
   
