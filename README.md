@@ -44,7 +44,7 @@ Migrate Database
 * Or you can connect too your instance using AWS  connect
   
 * Once you've connected to the instance, run the command
-  	sudo /opt/bitnami/bncert-tool
+  	    sudo /opt/bitnami/bncert-tool
   
 * You will be prompted to answer the a set of questions and it is advised to answer all questions correctly
 
