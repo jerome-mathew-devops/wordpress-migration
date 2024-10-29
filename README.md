@@ -46,3 +46,22 @@ Migrate Database
 * Once you've connected to the instance, run the command "sudo /opt/bitnami/bncert-tool"
   
 * You will be prompted to answer the a set of questions and it is advised to answer all questions correctly
+
+  ## Login to WordPress
+* While still connected to the instance, run "sudo cat /home/bitnami/bitnami_credentials" to get the credentials for the wordpress
+  
+* Visit WordPress login page and use the username and password from the step above
+  
+## Assign a Static IP
+	By Default, Our Wordpress instance is assigned an ephemeral IP, meaing the WP IP address is change when ever the Instance stops or restarts.
+Import the WordPress Website
+
+	We use the All-in-one WP Migration Unlimited Plugin to quickly and easily import nd export the existing WordPress Website to it's new location on AWS.
+ 
+* Downlaod the WP Migration Plugin: From our  WordPress website, head over to "Add Plugins" and download the All-in-One WP Migration plugin
+  
+* Activate the All-in-One WP Migration plugin, and access it by clicking the link in your WordPress sidebar column. From the All-in-One WP Migration dashboard, enter your existing website URL in the Find field, and your new website URL in the Replace with field. Finally, export your website by selecting Export To > File.
+  
+* Import Website File: From your new WordPress Website installation, download the All-in-One WP Migration plugin and go to Import From > File. Choose the export file that you downloaded in the previous step.
+  
+* Change Permalink Structure: After you've successfully imported your WordPress website,will need to reset your permalink structure. From your WordPress dashboard go to Settings > Permalinks, and select the permalink structure that you prefer (I recommend Post name).
